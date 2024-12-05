@@ -1,0 +1,13 @@
+  apiVersion: backstage.io/v1alpha1
+  kind: Component
+  metadata:
+    name: objectify-insight
+    description: Github repository for objectify-insight
+    annotations:
+      google.com/cloudbuild-project-slug: ao-docs-tools
+      github.com/project-slug: AODocs-Dev/objectify-insight
+      sonarqube.org/project-key: AODocs-Dev_objectify-insight
+  spec:
+    type: service
+    lifecycle: production
+    owner: group:default/sre
